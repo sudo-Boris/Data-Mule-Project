@@ -1,0 +1,1 @@
+/usr/bin/cc     -L/usr/local/lib -lspi -Wl,-rpath=$(LOCAL_LIB) -L$(LOCAL_LIB) -lprussdrv CMakeFiles/DataMule.dir/src/main.c.o CMakeFiles/DataMule.dir/src/CC1200_lib.c.o  -o DataMule -rdynamic 

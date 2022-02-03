@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/debian/executables/PPL/Data_Mule/src/CC1200_lib.c
+CC1200_lib.h
+/home/debian/executables/PPL/Data_Mule/src/CC1200_lib.h
+
+/home/debian/executables/PPL/Data_Mule/src/main.c
+CC1200_lib.h
+/home/debian/executables/PPL/Data_Mule/src/CC1200_lib.h
+
+include/CC1200_lib.h
+stdio.h
+-
+stdint.h
+-
+SPIv1.h
+-
+stdlib.h
+-
+string.h
+-
+globals.h
+include/globals.h
+
+include/globals.h
+
